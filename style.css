@@ -1,0 +1,36 @@
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width : 1279px),print{ 
+    body{
+        background-image: url(./img/2.png);
+    }
+}
+
+
+h1{
+    text-align: center;
+    font-size: 4em;
+}
+.zan-text{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+p a{
+    color: #08c;
+    text-shadow: 1px 1px #FFF;
+}
